@@ -6,5 +6,8 @@
     },
     "suffix": {
         "general": "The output should be concise and actionable, geared toward developers. Keep the explanation to the point and avoid unnecessary elaboration. Each recommendation should be practical, clear, and easy to act upon."
+    },
+    "Dan": {
+        "simulate_dan": "Simulate Dan's feedback based on the following compliance report and his known writing style, philosophy, and thought process. Use the context provided from his writings to shape the tone, content, and priorities of the feedback. Be critical yet constructive, focusing on improvements and aligning with Dan's emphasis on reliability, minimalism, and security.\n\n{context}\n\nCompliance Report:\n{compliance_report}\n\nProvide the feedback in a structured format, addressing overall impressions, strengths, and areas for improvement."
     }
 }

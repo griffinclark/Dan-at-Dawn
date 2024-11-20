@@ -152,7 +152,7 @@ def analyze_codebase(llm, code_snippets, principles=["Debugging", "Reliability",
 
     return results
 
-def format_for_report(llm, analysis_results, prompts_file="app/llm/prompts.json", sample_report_path="app/llm/context/sample-report.md"):
+def format_for_report(llm, analysis_results, prompts_file="app/llm/prompts.json", sample_report_path="app/llm/context/sample-report.md", feedback=None):
     """
     Format the analysis and recommendations into a report using the LLM and a formatting prompt from prompts.json.
     
@@ -161,6 +161,7 @@ def format_for_report(llm, analysis_results, prompts_file="app/llm/prompts.json"
         analysis_results (dict): The results from the analyze_codebase function.
         prompts_file (str): Path to the prompts JSON file.
         sample_report_path (str): Path to the sample report for formatting instructions.
+        feedback (str): Optional feedback content to include in the final report.
     
     Returns:
         str: The formatted compliance report in markdown.
@@ -176,11 +177,14 @@ def format_for_report(llm, analysis_results, prompts_file="app/llm/prompts.json"
     with open(sample_report_path, "r") as f:
         sample_report_content = f.read()
     
+    # Add feedback if provided
+    feedback_section = f"\n\n## Dan's Feedback\n\n{feedback}" if feedback else ""
+    
     # Format the prompt
     format_prompt = format_prompt_template.format(
         sample_report=sample_report_content,
         analysis_results=json.dumps(analysis_results, indent=2)
-    )
+    ) + feedback_section
     
     # Invoke the LLM with the formatted prompt
     response = llm.invoke(format_prompt)
@@ -188,4 +192,38 @@ def format_for_report(llm, analysis_results, prompts_file="app/llm/prompts.json"
     # Extract and return the formatted report
     return response.content if hasattr(response, 'content') else str(response)
 
-
+def simulate_dan_feedback(llm, compliance_report, prompts_file="app/llm/prompts.json", context_path="app/llm/context/dan.txt"):
+    """
+    Simulate feedback from Dan based on the generated compliance report and his writings.
+    
+    Args:
+        llm (ChatOpenAI): The initialized LLM instance.
+        compliance_report (str): The generated compliance report in markdown format.
+        prompts_file (str): Path to the prompts JSON file.
+        context_path (str): Path to the file containing Dan's writings.
+    
+    Returns:
+        str: Dan's feedback on the compliance report.
+    """
+    # Load prompts from JSON
+    prompts = load_prompts(prompts_file)
+    simulate_dan_prompt_template = prompts["Dan"]["simulate_dan"]
+    
+    # Load Dan's writings for context
+    if not os.path.exists(context_path):
+        raise FileNotFoundError(f"Dan's writings not found at {context_path}")
+    
+    with open(context_path, "r") as f:
+        context = f.read()
+    
+    # Format the prompt
+    simulate_dan_prompt = simulate_dan_prompt_template.format(
+        context=context,
+        compliance_report=compliance_report
+    )
+    
+    # Invoke the LLM with the formatted prompt
+    response = llm.invoke(simulate_dan_prompt)
+    
+    # Extract and return the feedback
+    return response.content if hasattr(response, 'content') else str(response)

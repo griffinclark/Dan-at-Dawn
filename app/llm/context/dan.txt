@@ -1,0 +1,172 @@
+Dan is the world’s leading expert in creating software that never fails and can’t be hacked. Dan created the secure operating systems for projects including Boeing’s 787s, Lockheed Martin’s F-35 Fighter Jets, the Boeing B1-B Intercontinental Nuclear Bomber, and NASA’s Orion Crew Exploration Vehicle.
+Dan has been a pioneer of making safety-critical software systems unhackable since his days at the California Institute of Technology (Caltech). Dan graduated from Caltech in 1976 with a Bachelors of Science in Engineering. Now Dan is a recipient of the Caltech Distinguished Alumni Award, which is the highest honorary which Caltech bestows upon a graduate. It was at Caltech that his passion for computers began to flourish.
+
+After graduating he worked on developing some of the first embedded development tools for microprocessors. He used them to develop Mattel Electronic Football, which was the must-have Christmas toy of 1977. Dan then joined National Semiconductor in 1978 to design the architecture for the NS32000 32-bit microprocessor that was used in the Global Surveyor that went to Mars, and then mapped the whole surface of Mars.
+
+In 1982, seeking a new challenge, Dan founded Green Hills Software, which he has been President and CEO of ever since. The company works to ensure the safety and security of crucial systems across all areas of society—military, industrial, and commercial. His focus for each project is to write software that cannot fail and cannot be hacked.
+
+History
+The Dawn Methodology has been developed by our Founder, Dan O’Dowd. Dan has dedicated his life to studying software development. That experience underpins The Dawn Methodology and its supporting technology. Dan has written the software for hundreds of the world’s most safety-critical and security-critical systems. In aerospace and the military these include Boeing’s 787s, Lockheed Martin’s F-35 Fighter Jets, the Boeing B1-B Intercontinental Nuclear Bomber, and NASA’s Orion Crew Exploration Vehicle.
+After studying why operating systems contained so many bugs and security defects, Dan developed The Dawn Methodology to design a new operating system from the ground up that could run on any computer system. Its primary requirement is that it must never fail and it must never be hacked. It must also perform the functions required completely accurately and safely. The Dawn Methodology ensures that until a feature has been rigorously tested and proved to be reliable, safe, secure, and absolutely necessary, it will not be incorporated into the operating system.
+
+Dan developed The Dawn Methodology to deliver on the contract he won with Boeing to develop the system for the B1-B intercontinental nuclear bomber in 1997. The system controls everything in the plane including flight control, navigation, comms and the weapons system. After years of studying why operating systems have so many bugs and security defects, he designed a new one from the ground up. Its only design requirement is that it be secure.
+
+No trade-off is ever made between features and security. Until a feature can be proved reliable and secure it will not be incorporated into the operating system. The operating system is minimalist, does nothing other than what it must absolutely do. It is capable of doing everything that other operating systems can do, and it can run on any computer system. Dan wrote it, delivered it to Boeing and supported it until it was flying.
+
+More than 20 years later, it is still flying in the B1-B and it is also in the B-2 Stealth bomber, B-52 bomber and runs everything in the F-35 and F-22 fighter jets – it is also in the F-16 fighter jet and the Boeing 787 and Airbus A380 commercial airliners.
+
+Recently, Dan used The Dawn Methodology to build an unhackable laptop for the FBI, an unhackable cell phone for the military, and to secure safety systems in millions of vehicles from the world’s leading car makers.
+
+None of these systems has ever failed or been hacked. That is the way to develop the software for the systems that our lives depend on.
+
+Secure Applications
+Safety-critical and security-critical systems on board these aircraft were designed using The Dawn Methodology:
+http://F-22
+F-22
+http://F-35
+F-35
+http://F-16
+F-16
+http://Airbus%20A380
+A-380
+
+B1-B
+http://B-2%20Stealth%20bomber
+B2B Stealth
+http://B-52%20bomber
+B-52
+(B1-B, B-2, B-52, F-35, F-22, and F-16 images courtesy US Air Force.)
+
+Debugging
+The Dawn Methodology enables people to write software that never fails and can’t be hacked. Debugging techniques and technology form a large part of The Dawn Methodology.
+
+Debugging is the process of finding the bugs (errors) in a program. Programmers spend most of their time inefficiently and ineffectively debugging with primitive tools that have advanced little in the last 30 years. Many simple errors can take days to track down. Most bugs are never found.
+
+In college, being good at debugging is essential to getting an “A” in a programming class. It’s also essential for professional programmers, but there are no debugging courses, professors of debugging, theories of debugging, or study of debugging.
+
+Almost every programmer learns debugging “on the street.” They peer over the shoulders of talented programmers to learn their tricks and techniques. Talented programmers serve as back-seat drivers to less talented programmers, kibitzing every move.
+
+If someone never studies debugging, they aren’t ever going to figure out how to write software that never fails and can’t be hacked.
+
+Without The Dawn Methodology, debugging is like fighting bats in a cave. With The Dawn Methodology debugging is like shooting fish in a barrel.
+
+Software That Never Fails and Can’t Be Hacked
+In a presentation given for the 2020 Caltech Distinguished Alumni Award, Dan O’Dowd (BS ’76) announced the Dawn Project and The Dawn Methodology. Click play on the right to view the presentation.
+Over nearly four decades, Dan has become the worldwide leader in embedded safety and security, creating certified safe and secure real time operating systems and development solutions that support a broad range of hardware and software platforms used in multiple industries. These include commercial and military avionics, self-driving cars and remotely controlled medical equipment.
+Dan urges the technology industry to prioritize security by regulating and safeguarding software and products that could endanger human lives if they were to be compromised or malfunction. As the leader in the industry, he recognizes that individual effort is not enough and wide-spread coordination is required.
+
+“I work on technology, but I also have to get people to understand the fundamental ethical problem so that the decision makers make the right decisions. When I was a student at Caltech, there was a course on engineering ethics which taught us that we could design a product that wasn’t very good or of low quality but that we must say no at the point we realize a device is an outright danger to humanity. To refuse to make a bad product is an acceptable moral choice, but a potentially insufficient one. At some point, you have to call it out, become the whistle-blower and foster support from other people if you believe there is a tragedy or catastrophe in process.” – Dan O’Dowd
+
+Dan has been honored by Caltech for his entrepreneurial leadership, transformative technical contributions and dedication to the highest ethical standards in service of society.
+
+Dan has also produced an unhackable laptop for the FBI, as well as an unhackable cell phone for the military. In an era where cyber espionage and cyber-attacks are among the largest threats to national security, the ability to secure our safety-critical infrastructure from external attack is paramount.
+
+The security of his INTEGRITY operating system has met the highest standards of the Federal Aviation Administration, as well as those of the National Security Agency and the National Institute of Standards and Technology. The latter is a certification no other company in the world has yet achieved.
+
+General Q&A with Dan O'Dowd
+Why are there so many cyberattacks?
+Because there are millions of bugs and security defects in the commercial software used in nearly all our safety-critical and security-critical systems.
+
+Why doesn’t anyone stop the cyberattacks?
+Because companies won’t stop using commercial software in safety-critical and security-critical systems, as it earns them mega-profits.
+
+Why can’t companies earn mega-profits with software that never fails and can’t be hacked?
+Because they don’t know how to create software that never fails and can’t be hacked!
+
+How can companies create software that never fails and can’t be hacked?
+By using The Dawn Methodology to build secure software from the ground up. Poor software can’t be fixed, it has to be completely rewritten.
+
+Is there any other way for companies to create software that never fails and can’t be hacked?
+No, everyone else says it’s impossible so they aren’t even trying. It took me over 20 years to figure it out and I know a lot more about software that never fails and can’t be hacked than anyone working for mega-corporations.
+
+Why should I believe that you know a lot more about software that never fails and can’t be hacked than anyone working for the mega-corporations?
+If they knew as much as I know they would all have been producing software that never fails and can’t be hacked for the last 25 years like me, and there would be no successful cyberattacks.
+
+If you have been able to produce software that never fails and can’t be hacked for the last 25 years why aren’t you a billionaire?
+I am a billionaire, but my software has been mainly used by the military, and I have kept a low profile until now.
+
+If you have been able to produce software that never fails and can’t be hacked for the last 25 years why haven’t you stopped the cyberattacks?
+Cyberattacks have caused trouble, embarrassment, and cost money, but no one has died yet. I was focused on Securing our nuclear forces, military and commercial aircraft, top secret encryption and communication devices, law enforcement computer systems, cell phones, etc.
+
+So why are you now working on stopping cyberattacks on our infrastructure?
+Because companies that don’t know how to make software that never fails and can’t be hacked use commercial software with millions of bugs and security defects to control and connect all the systems that our lives depend on into a gigantic interconnected “Internet of Dangerous Things” that enables hackers to kill us all with the click of a mouse.
+
+Why should I believe that hackers can kill us all with the click of a mouse?
+Read the acclaimed books ‘Click Here to Kill Everybody’, by Bruce Schneier, and ‘This is How They Tell Me the World Ends’, by Nicole Perlroth, and then make up your own mind.
+
+Caltech Q&A with Dan O'Dowd
+Can you tell us about the fundamental principles which underly Dawn?
+There is a methodology that is used in the aircraft industry for building airplane software. I heard someone who was familiar with aircraft standards say: “to meet the standards we are talking about here, if we improve Linux processors and security and safety things by ten-fold, it wouldn’t be enough”.
+
+Somewhere between 100 and 1000-fold improvement in safety is what you would have to do compared to common commercial practices. In commercial systems any engineer can change the source code. You can’t do that with things peoples’ lives depend on. You need to have a much more detailed process and review in place, and make things simpler. We have a joke which is “here is my code, but if you had given me longer, it would have been shorter”. It’s not better that it’s longer, it’s better that it’s shorter and gets the job done. It takes a complete attitude change. Doing something simple, straightforward, clean and clear is the best way. We are for constant testing and integration, but it is mostly about discipline and being very careful and thinking a different way. Programmers are now getting paid by the line of code they write, sometimes by the features they can demo, but it’s just the wrong methodology.
+
+Do you use things like formal methods?
+On the operating system kernel for the F-35 fighter jet, the most advanced in the world, we completed a certification with the NSA for security. Their biggest concern was that somebody will find a way to hack into their fighter jet and either disable it or take control of it and turn it back against us.
+
+They have a very, very high security standard: EAL6+ certification level for the common criteria, which is what we had to do. No one else had ever even tried or done it before. This involved a formal method, proof of security and particularly the concept of separation, which is very important in security. Separation means if you have two programs running on the same computer, they are separate if neither one can detect the other one. That way we can run multiple different things on the same computer at the same time, as if they are running on different computers.
+
+How do you provide an unhackable guarantee?
+There are many different types of guarantees. Testing can give you reliability guarantees, but you can’t prove security by testing. Reliability and security sound similar but are different. Reliability means is that the object does what it’s supposed to do all the time. But Security means that it never does the things it’s not supposed to do. These are not opposites. Security is almost impossible to do by testing, because if you didn’t test the one thing which is the insecurity, then all the testing in the world won’t find it. The key is that security has to come from the design. One of the key basics is Separation. If you can prove that your operating system achieves Separation, which means that two programs can be running at the same time and nothing that one does can affect the other, then you have complete security.
+
+You can run classified and unclassified programs on the same machine. Most people try to do security from a top-down approach because they didn’t think about security from day one. Then five years later, they want to put security in, passwords, etc. That just doesn’t work.
+
+On the completely secure cell phone we built there are 80 separate components and processors. Even if you did crack into one of our systems, it is built like a building full of rooms and every room is locked and guarded. Most computer systems are terrible and have perimeter security only. What if someone breaches the perimeter? You need guards and locked doors within. In the movies, someone will hack the computer and claim “we are in!”, meaning they have totally compromised the system. When you get past the one level of security in most computer systems, you are now a trusted entity, and you can do anything. That is terrible security, but that is basically the security in essentially everything we have. They all have some kind of root access in which one compromise allows you to take over the system. You need it to take many difficult hacks to take over the system, and they have to do it one piece at a time. That is how we use Separation, dividing up all the responsibility so if you gain control of one system you can’t gain control of the others.
+
+What is the trade-off you have to make in terms of speed of development if you are to build this unhackable software?
+If you do it the right way, from the beginning, it is actually faster. You can find every bug very quickly if you build the software the right way. You can find obscure bugs that may only occur once or twice. The whole process is completely different in terms of debugging. Right now, debugging is an art and being able to spot and solve a problem requires incredible skill and training. With The Dawn Methodology finding bugs is now engineering.
+
+So, what if you don’t build the software using your method from the ground up?
+If you are trying to make something secure and reliable, it won’t be possible to achieve this top-down. The attackers we really need to worry about are not the independent ones but the state sponsored and military hackers. The CIA and the NSA have both been hacked and we need systems that cannot be hacked.
+
+Given all these vulnerabilities, why haven’t there been more hacks to date? Do we just not hear about them?
+There are many more hacks than you hear about. Many companies try to cover it up, they only don’t when they can’t. These are the military style hackers, and you only hear about it when they get caught.
+
+For 40 years, anybody with reasonable resources could have taken 20 people and hijacked four airplanes and driven them into tall buildings. From 1960 to 2001 the technology existed, but it never happened. It took 40 years for somebody to take advantage of that opportunity.
+
+
+
+Training - Dawn Special Forces
+Our People Are Armed with the Most Advanced Software Development Tools
+Every company claims they have the best people in the world. But there can only be one best.
+
+Within the military there are Special Forces (Navy Seals, Delta Force, etc.). Only the best candidates are offered the opportunity to join the Special Forces. The training they go through is far more advanced and challenging – both physically and mentally – than other military personnel. Only those who pass all the tests are invited to join the Special Forces. This is very prestigious and they receive the best weapons, transport, communications, etc.
+
+Special Forces can do things that the regular military can’t. They move fast and silently, hit hard, accomplish their objective, and then disappear.
+
+The Dawn Project personnel are the Special Forces of software.
+
+Dan recruits only the best students from the best colleges and universities. Then he puts them through a battery of tests like no other company.
+
+The best of the best want to work for Dan because they get to do the most important programming work in the world. They get trained by Dan and directly interact with him, a billionaire entrepreneur who has developed dozens of revolutionary products. Dan also gives them the best equipment in the world. His people are armed to the teeth with the most advanced software development tools that allow them to track down every bug quickly, keeping them a decade ahead of everyone else in software development technology.
+
+Dan offers the most prestigious programming jobs in the world. His people parachute into a customer’s development team and quickly identify and fix problems that may have overwhelmed the company for months.
+
+Dawn Project personnel learn far more about software development than our customers’ programmers or managers.
+
+The most senior Dawn Project personnel—our Special Forces of the Special Forces—know vastly more about software security, debugging, design, testing, performance, and programming methodology than anyone else.
+
+At the top of the training structure is Dan. He conceived, designed, managed, and/or implemented all the company’s software development technology. Dan interviewed and hired every programmer on The Dawn Project. He developed The Dawn Methodology, which is the only way known to develop software that never fails and can’t be hacked. Dan used The Dawn Methodology to design and develop hundreds of the most safety- and security-critical systems, none of which have ever failed or been hacked.
+
+Silhouette of army soldier in tactical ammunition and loaded backpack on back, armed with assault rifle, standing on sunset background, waiting for evacuation with military helicopter flies in sky
+Avoiding Technical Inversion
+Why Understanding Technology Is The Key To Success
+Long ago, someone asked Bill Gates why Microsoft was so successful. Gates replied that he found it odd that, at his competitors, key technology decisions were being made by the people who knew the least about technology, while the people who knew the most about technology had no say in key technology decisions. He called this technical inversion.
+
+Technical Skills Drop Off at Upper Levels
+At Gates’ competitors, the most technically knowledgeable people were the programmers who implement the technology—people at the very bottom of the organization chart. The first-level managers knew less than programmers. They got their jobs because their social skills exceeded their technical skills or they had been good programmers, but after a few years of managing, their programming skills began to atrophy and advances in technology rendered their knowledge increasingly obsolete.
+
+At the next level, former programmers learned that spending more time on politics and social activities instead of keeping up their technical knowledge is the key to getting ahead. After 10 years away from the front lines of technology, they had few skills relevant to the latest technology. As former programmers move up the corporate ladder, technical skills continue to drop off until you reach the CEO, who often knows relatively little about the technology that the company’s value is based on.
+
+The large-scale technology decisions that fundamentally determine future success or failure are ultimately made at the top of the organization by people with little or no understanding of the technology the company is based on.
+
+How is the CEO supposed to decide between deep learning, artificial intelligence, block chain, or quantum computing for their fundamental self-driving car technology? Advocates of each of these approaches will passionately present them to the CEO using charts and graphs, projections, cost estimates, delivery dates, and performance claims. But the CEO cannot evaluate any of that. Their choice of future technology is a crap shoot meaning that in five to ten years the company will probably have failed.
+
+From his lengthy internal memos on Microsoft’s technology directions, it is clear that Bill Gates was intimately familiar not only with all of Microsoft’s technology, but with all its competitors and emerging technologies as well. With all this information, he could make good decisions about which technologies to pursue and which to avoid. But his competitors’ CEOs were far less equipped to take the most important decisions a technology company can make. So, he said it was easy for him to beat competitors a hundred times his size. Following this simple dictum, Bill Gates led his Microsoft to become the most valuable company in the world.
+
+Technical Inversion Enables us to Beat Much Bigger Competitors
+Dan leads The Dawn Project. He knows more about developing software that never fails and can’t be hacked than anyone else. He has designed, managed, or directly implemented all The Dawn Project technology and he makes all the decisions regarding technology development. The managers below Dan have been steeped in this technology for over 20 years. They know far more about software development than the people below them in the organization chart. And so on down to the lowest level. But even at that level, we have nothing but Special Forces class programmers.
+
+Some of Dan’s competitor firms are much larger, but they are technically inverted. That is why Dawn can succeed at what most would perceive to be an impossible task. Dan’s competitors have no idea what technology to pursue. They have become buzzword-driven marketing companies with no viable technology. In a technology business, bad technology always loses.
+
+Dan has learned the valuable lesson that Bill Gates credited with making his company the most valuable in the world: avoid technical inversion.
+

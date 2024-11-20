@@ -1,5 +1,5 @@
 import logging
-from src.llm_integration import initialize_llm, analyze_codebase, format_for_report
+from src.llm_integration import initialize_llm, analyze_codebase, format_for_report, simulate_dan_feedback
 
 # Mock data for testing
 code_snippets = [
@@ -90,34 +90,52 @@ def main():
     logging.basicConfig(level=logging.INFO, format="%(asctime)s - %(levelname)s - %(message)s")
     
     # Set the model type dynamically (either "smart" or "fast")
-    model_type = "fast"  # You can change this to "smart" to use the smart model
+    model_type = "smart"  # You can change this to "smart" to use the smart model
 
-    # Step 1: Initialize the LLM (using the model type from config.json)
+    # Step 1: Initialize the LLM
     logging.info(f"Initializing LLM with model type: {model_type}")
     llm = initialize_llm(model_type=model_type, temperature=0.7)
     logging.info("LLM initialized successfully.")
 
-    # Step 2: Analyze the codebase using the LLM
+    # Step 2: Analyze the codebase
     logging.info("Starting code analysis...")
     analysis_results = analyze_codebase(llm, code_snippets)
     logging.info("Code analysis complete.")
 
-    # Step 3: Format the results for the report
-    logging.info("Formatting the results for the report...")
-    formatted_results = format_for_report(
+    # Step 3: Generate and save the draft report
+    logging.info("Formatting the draft report...")
+    draft_report = format_for_report(
         llm=llm,
         analysis_results=analysis_results,
         prompts_file="app/llm/prompts.json",
         sample_report_path="app/llm/context/sample-report.md"
     )
-    logging.info("Results formatted successfully.")
+    draft_path = "./draft_compliance_report.md"
+    with open(draft_path, "w") as draft_file:
+        draft_file.write(draft_report)
+    logging.info(f"Draft compliance report saved at {draft_path}.")
 
-    # Step 4: Save the report directly as markdown
-    output_path = "./compliance_report.md"
-    logging.info(f"Saving the report to {output_path}...")
-    with open(output_path, "w") as report_file:
-        report_file.write(formatted_results)
-    logging.info(f"Report saved successfully at {output_path}.")
+    # Step 4: Generate feedback from Dan
+    logging.info("Generating Dan's feedback on the draft report...")
+    dan_feedback = simulate_dan_feedback(llm, draft_report)
+    feedback_path = "./dan_feedback.md"
+    with open(feedback_path, "w") as feedback_file:
+        feedback_file.write(dan_feedback)
+    logging.info(f"Dan's feedback saved at {feedback_path}.")
+
+    # Step 5: Generate and save the final report with feedback
+    logging.info("Formatting the final report with feedback...")
+    final_report = format_for_report(
+        llm=llm,
+        analysis_results=analysis_results,
+        prompts_file="app/llm/prompts.json",
+        sample_report_path="app/llm/context/sample-report.md",
+        feedback=dan_feedback
+    )
+    final_path = "./final_compliance_report.md"
+    with open(final_path, "w") as final_file:
+        final_file.write(final_report)
+    logging.info(f"Final compliance report saved at {final_path}.")
 
 
 if __name__ == "__main__":
