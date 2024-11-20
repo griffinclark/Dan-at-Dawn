@@ -1,0 +1,10 @@
+{
+    "application": {
+        "analyze_code": "Analyze the following code for {principle}. Provide a brief, focused analysis on how the code adheres to {principle}, pointing out key issues or gaps. Limit the response to 2-3 short paragraphs.\n\n{code_snippet}",
+        "generate_recommendations": "Based on the following code and its {principle} analysis, provide specific, actionable recommendations for improvement. Limit the response to 2-3 bullet points, each no longer than one sentence. Avoid unnecessary explanations.\n\n{code_snippet}",
+        "format_report": "Format the following analysis results into a compliance report using the structure and style of the provided sample report format:\n\n{sample_report}\n\nAnalysis Results:\n{analysis_results}\n\nEnsure the report is clean, professional, and well-structured in markdown format."
+    },
+    "suffix": {
+        "general": "The output should be concise and actionable, geared toward developers. Keep the explanation to the point and avoid unnecessary elaboration. Each recommendation should be practical, clear, and easy to act upon."
+    }
+}

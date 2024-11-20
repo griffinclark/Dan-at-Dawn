@@ -1,0 +1,6 @@
+{
+    "model": {
+        "fast": "gpt-4o-mini",
+        "smart": "gpt-4o"
+    }
+}
