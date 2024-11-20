@@ -5,26 +5,77 @@ from src.llm_integration import initialize_llm, analyze_codebase, format_for_rep
 code_snippets = [
     {
         "code": """
-def example_function():
-    try:
-        # Some operation
-        pass
-    except Exception as e:
-        print(f'Error: {e}')
-    finally:
-        pass
+import hashlib
+import hmac
+import os
+
+def hash_password(password: str, salt: bytes = None) -> bytes:
+    salt = salt or os.urandom(16)
+    hashed = hashlib.pbkdf2_hmac('sha256', password.encode('utf-8'), salt, 100000)
+    return salt + hashed
 """,
-        "description": "Function with basic error handling"
+        "description": "A function for hashing passwords using PBKDF2 with a salt."
     },
     {
         "code": """
-def another_function():
-    # No error handling, just an operation
-    x = 10 / 0
+import jwt
+import datetime
+
+def generate_token(user_id: str, secret: str, expires_in: int = 3600) -> str:
+    payload = {
+        'user_id': user_id,
+        'exp': datetime.datetime.utcnow() + datetime.timedelta(seconds=expires_in)
+    }
+    return jwt.encode(payload, secret, algorithm='HS256')
 """,
-        "description": "Function with error (divide by zero)"
+        "description": "A function for generating JWT tokens for user authentication."
+    },
+    {
+        "code": """
+def validate_token(token: str, secret: str) -> dict:
+    try:
+        payload = jwt.decode(token, secret, algorithms=['HS256'])
+        return payload
+    except jwt.ExpiredSignatureError:
+        raise ValueError("Token has expired")
+    except jwt.InvalidTokenError:
+        raise ValueError("Invalid token")
+""",
+        "description": "A function for validating JWT tokens, handling expiration and invalid tokens."
+    },
+    {
+        "code": """
+import flask
+from flask import request, jsonify
+
+app = flask.Flask(__name__)
+
+@app.route('/login', methods=['POST'])
+def login():
+    try:
+        data = request.json
+        if not data.get('username') or not data.get('password'):
+            return jsonify({'error': 'Missing credentials'}), 400
+        # Mock user validation
+        if data['username'] == 'testuser' and data['password'] == 'securepassword':
+            token = generate_token('testuser', 'secret')
+            return jsonify({'token': token}), 200
+        return jsonify({'error': 'Invalid credentials'}), 401
+    except Exception as e:
+        return jsonify({'error': str(e)}), 500
+""",
+        "description": "A simple Flask endpoint for user login with mock user validation and token generation."
+    },
+    {
+        "code": """
+def log_failed_attempt(username: str) -> None:
+    with open('failed_attempts.log', 'a') as log_file:
+        log_file.write(f"Failed login attempt for user: {username}\\n")
+""",
+        "description": "A function to log failed login attempts for security monitoring."
     }
 ]
+
 
 # Mock recommendations
 mock_recommendations = {
