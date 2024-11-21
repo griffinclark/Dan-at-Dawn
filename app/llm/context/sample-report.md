@@ -1,4 +1,4 @@
-# **SAMPLE Dan@Dawn Compliance Report for Notification Server**
+# **SAMPLE Dan at Dawn Compliance Report for Notification Server**
 
 ---
 
@@ -81,4 +81,4 @@ By addressing these issues, the **Notification Server** will be better positione
 
 ---
 
-**Dan@Dawn** provides this feedback as a **guideline** to help developers ensure their software adheres to the best practices of the **Dawn Methodology**. The final decision on how to implement these changes remains in the hands of the development team.
+**Dan at Dawn** provides this feedback as a **guideline** to help developers ensure their software adheres to the best practices of the **Dawn Methodology**. The final decision on how to implement these changes remains in the hands of the development team.
